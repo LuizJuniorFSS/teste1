@@ -79,7 +79,7 @@ body {
 }
 
 
-
+AQUIIIIII
 .location-badge {
     display: flex;
     justify-content: center;
@@ -92,7 +92,7 @@ body {
     transition: transform 0.3s ease;
     gap: 0.5rem;
     flex-wrap: nowrap;
-    width: 430px;
+    width: 409px;
     height: 145px;
     margin: 0 auto;
 }
