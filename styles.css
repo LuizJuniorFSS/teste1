@@ -92,7 +92,7 @@ body {
     transition: transform 0.3s ease;
     gap: 0.5rem;
     flex-wrap: nowrap;
-    width: 409px;
+    width: 410px;
     height: 145px;
     margin: 0 auto;
 }
