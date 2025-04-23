@@ -78,43 +78,11 @@ body {
     opacity: 0.9;
 }
 
-.nav-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--glass-border);
-    padding: 1rem 0;
-    transition: all 0.3s ease;
-}
 
-.nav-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-.nav-link:hover {
-    background: var(--glass-bg);
-    transform: translateY(-2px);
-}
 
 .location-badge {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background: var(--glass-bg);
     padding: 0.8rem 1.5rem;
@@ -122,6 +90,10 @@ body {
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     transition: transform 0.3s ease;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .location-icon {
@@ -281,7 +253,7 @@ main {
     text-decoration: none;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
-    margin-top: 1rem;
+    margin-top: 0.0rem;
     border: 1px solid var(--glass-border);
     transition: all 0.3s ease;
 }
